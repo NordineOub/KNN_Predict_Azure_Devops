@@ -5,7 +5,7 @@
 
 import unittest
 
-from model_prediction_devops import model_prediction_devops
+from model_prediction_devops import model_prediction
 
 
 class TestModel_prediction_devops(unittest.TestCase):

@@ -1,0 +1,5 @@
+flask==2.1.*
+joblib
+numpy
+scikit-learn
+prometheus-client

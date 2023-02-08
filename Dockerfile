@@ -3,10 +3,8 @@ FROM ubuntu:22.04
 
 # install app dependencies
 RUN apt-get update && apt-get install -y python3 python3-pip
-RUN pip install flask==2.1.*
-RUN pip install joblib
-RUN pip install numpy
-RUN pip install scikit-learn
+COPY . . 
+RUN pip install -r requirements.txt
 
 # install app
 COPY API_flask.py /
